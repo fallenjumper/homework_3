@@ -1,0 +1,91 @@
+{
+    "type": "array",
+    "properties": {
+        "id": {
+            "type": "number"
+        },
+        "obdb_id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "brewery_type": {
+            "type": "string"
+        },
+        "street": {
+            "type": "string"
+        },
+        "address_2": {
+            "type": "null"
+        },
+        "address_3": {
+            "type": "null"
+        },
+        "city": {
+            "type": "string"
+        },
+        "state": {
+            "type": "string"
+        },
+        "county_province": {
+            "type": "null"
+        },
+        "postal_code": {
+            "type": "string"
+        },
+        "country": {
+            "type": "string"
+        },
+        "longitude": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "latitude": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "website_url": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "updated_at": {
+            "type": "string"
+        },
+        "created_at": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "id",
+        "obdb_id",
+        "name",
+        "brewery_type",
+        "street",
+        "address_2",
+        "address_3",
+        "city",
+        "state",
+        "county_province",
+        "postal_code",
+        "country",
+        "longitude",
+        "latitude",
+        "phone",
+        "website_url",
+        "updated_at",
+        "created_at"
+    ]
+}
